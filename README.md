@@ -15,4 +15,8 @@ To build and testing
     
 This command _*init*_ the jetty web server, and then through the url **http://localhost:9999/fixedDeposit/list** you can to access to the application
 
+It is necessary to create the database in the MySQL server and create a pair of tables, for this, you can use the script      
+_**chapter 8/ch08-bankapp-jdbc/sql/**_ of the book code.    
+
+While for _Redis_, you only need to have the server started.
 
